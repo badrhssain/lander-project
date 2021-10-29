@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'proxima nova',sans-serif;
+    box-sizing: border-box;
+}
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F38E58;
+  }
+.li1 {
+    display: inline;
+}
+.li1 {
+    float: left;
+ }
+.li1 a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 6px 16px;
+    text-decoration: none;
+    padding-top: 30px;
+   
+  }
+  
+  .li1 a:hover:not(.active) {
+    background-color: #242424;
+    margin-top: 10px;
+    
+   }
+   textarea{
+     resize: none;
+     opacity: 50%;
+   }
+   .lilog {
+padding: 30px;
+color: white;
+   }
+   .lilog a{
+     color: white; 
+     padding: 10px 25px;
+     text-decoration: none;
+   }
+   .liday {
+    padding: 30px;
+color: white;
+   }
+   .liday a{
+    color: white; 
+    padding: 15px 35px;
+    text-decoration: none;
+   }
+   .login {
+    background-color: #03203000;
+    margin-right: 50px;
+    margin-top:19px;
+    border: 3px solid #FFFFFF;
+    height: 50px;
+    box-sizing: border-box;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: -50px;
+
+  }
+  .trial {
+    background-color: #032030;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-top:20px;
+    border-radius: 5px;
+}
+.logo {
+  width: 170px;
+  margin-left: 70px;
+  margin-top: -30px;
+}
+.AA {
+  margin-left: 100px;
+}
+header {
+  background-color: #F38E58;
+  height: 210px;
+  width: 100%;
+}
+#contact {
+display: flex;
+justify-content: center;
+color: white;
+font-size: 60px;
+font-family: 'proxima nova',sans-serif;
+}
+#pr{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-family: 'proxima nova',sans-serif;
+}
+main {
+  background-color: #ffffff;
+  height: 850px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+main a{
+  text-decoration: none;
+  color: #F38E58;
+}
+.left {
+background-color: rgb(255, 255, 255);
+padding-left: 50px;
+padding-top: 50px;
+}
+.right {
+background-color: rgb(255, 255, 255);
+padding-left: 20px;
+padding-top: 50px;
+}
+h1 {
+  color: #61B3D9;
+}
+h2{
+  padding-top: 60px;
+}
+h5 {
+  padding-top: 10px;
+  opacity: 50%;
+}
+
+p {
+  padding-top: 10px;
+  padding-left: 5px;
+  opacity: 80%;
+}
+.badro {
+  display: flex;
+}
+.badro p{
+  padding-top: 40px;
+  font-size: 15px;
+}
+img {
+  width: 70px;
+  padding-top: 30px;
+}
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 85%;
+}
+#msg {
+  padding: 19px 20px;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #F38E58;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 350px;
+}
+footer {
+  background-color: #404040;
+  width: 100%;
+display: flex;
+flex-direction: row;
+padding: 30px 70px;
+
+}
+footer ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-left: 20px;
+  list-style: none;
+
+}
+.titles{
+  font-size: 12px;
+  color: white;
+  position: relative;
+  margin-bottom: 10px;
+  opacity: 90%;
+  font-weight: 500;
+}
+.titles::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: yellowgreen;
+  height: 2px;
+}
+footer li:not(:last-child){
+  margin-bottom: 10px;
+}
+footer li a{
+  font-size: 9px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+  color: white;
+  opacity: 50%;
+  font-weight: 300;
+}
+footer ul li a:hover{
+  color: pink;
+  padding-left: 8px;
+
+}
+.buttonLanding {
+  background-color: #032030;
+  margin-top: 6px;
+  margin-right: 25px;
+  margin-top:20px;
+  border-radius: 5px;
+}
+.buttonLanding {
+  padding: 15px;
+color: white;
+ }
+ .buttonLanding a{
+  color: white; 
+  padding: 1px ;
+text-align: center; 
+}
+.copy {
+  background-color: #242424;
+  height: 70Opx;
+  width: 100%;
+color: white;
+}
+.copy h4{
+padding-top: 5px;
+padding-left: 90px;
+font-size: 12px;
+opacity: 80%;
+padding-bottom: 5px;
+}
+.copy h4 a{
+  text-decoration: none;
+  color: #F38E58;
+}
+.footerimg{
+  padding-top: 0px;
+}
